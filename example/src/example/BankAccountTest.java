@@ -14,7 +14,7 @@ public class BankAccountTest {
 	public static void setUpBeforeClass() throws Exception {
 		BankAccount SBI = new BankAccount("Joel", "9075181945", 10000);
 		float bal = SBI.balance = 10000;
-		System.out.println("-------------------------------");
+
 		SBI.getBalance();
 		assertTrue(bal>0);
 	}
